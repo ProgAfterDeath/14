@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(39, 18, 50);
+}
+
+.audioContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
