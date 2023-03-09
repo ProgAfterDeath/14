@@ -52,10 +52,10 @@ img {
 }
 
 video {
-    width: 50%;
+    width: 40%;
     border-radius: 200px;
     position: absolute;
-    margin-top: 35vh;
+    margin-top: 30vh;
 }
 
 .videoBox {
@@ -75,20 +75,20 @@ video {
 }
 
 .sidePhoto {
-    padding: 3%;
-    padding-top: 6%;
+    padding: 6%;
+    padding-top: 1%;
     display: flex;
     justify-content: space-between;
 }
 
 .footer {
-    padding-top: 12%;
+    padding-top: 2.5%;
 }
 
 .text {
     margin: 0px;
     padding: 0px;
-    padding-top: 6%;
+    padding-top: 3%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
     background-image: linear-gradient(90deg, #ff6790 3%, #23055e 50%);
@@ -106,6 +106,6 @@ video {
 
 @media (min-width: 844px) {
     video {
-        margin-top: 110vh;
+        margin-top: 85vh;
     }
 }
