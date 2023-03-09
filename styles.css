@@ -1,10 +1,105 @@
 body {
-    background-color: rgb(39, 18, 50);
+    /* background: linear-gradient(
+        90deg,
+        rgba(0, 166, 106, 1) 0%,
+        rgba(248, 0, 255, 1) 100%
+    ); */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #5b33ab 0%, #e200ff 100%);
 }
 
-.audioContainer {
+.head {
     display: flex;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.left-up {
+    transform: rotate(-20deg);
+}
+
+.right-up {
+    transform: rotate(20deg);
+}
+
+.left-block-up {
+    padding-top: 10%;
+    padding-right: 20%;
+}
+
+.center-block-up {
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    top: 1.5%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.right-block-up {
+    padding-top: 9%;
+    position: relative;
+}
+
+video {
+    width: 50%;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: 35vh;
+}
+
+.videoBox {
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.meme1 {
+    width: 20%;
+    border-radius: 15px;
+}
+
+.meme2 {
+    width: 20%;
+    border-radius: 15px;
+}
+
+.sidePhoto {
+    padding: 1%;
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding-top: 12%;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 6%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    background-image: linear-gradient(90deg, #ff6790 3%, #23055e 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ps {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+    color: #ff6790;
 }
