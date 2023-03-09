@@ -11,12 +11,9 @@ body {
 
 .head {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 95%;
     height: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 4%;
 }
 
 img {
@@ -48,7 +45,6 @@ img {
 
 .right-block-up {
     padding-top: 9%;
-    position: relative;
 }
 
 video {
